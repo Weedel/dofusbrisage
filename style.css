@@ -1,60 +1,123 @@
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #4f46e5;
+    --background-color: #f8fafc;
+    --text-color: #1e293b;
+    --border-color: #e2e8f0;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.5;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     margin-top: 20px;
     background: white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.05);
+    overflow: hidden;
 }
 
 th, td {
-    padding: 12px;
+    padding: 1rem;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--border-color);
 }
 
 th {
-    background-color: #f5f5f5;
+    background-color: #f1f5f9;
+    font-weight: 600;
+    color: var(--primary-color);
     cursor: pointer;
     user-select: none;
+    transition: background-color 0.2s ease;
+    position: relative;
 }
 
 th:hover {
-    background-color: #e5e5e5;
+    background-color: #e2e8f0;
 }
 
 td img {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     vertical-align: middle;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+td img:hover {
+    transform: scale(1.1);
 }
 
 input[type="number"] {
-    width: 100px;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    width: 120px;
+    padding: 0.5rem;
+    border: 2px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
 }
 
 tr:hover {
-    background-color: #f8f8f8;
+    background-color: #f8fafc;
 }
 
 .sorted-asc::after {
     content: " ▲";
+    color: var(--primary-color);
+    font-size: 0.8em;
 }
 
 .sorted-desc::after {
     content: " ▼";
+    color: var(--primary-color);
+    font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    table {
+        font-size: 0.9rem;
+    }
+    
+    th, td {
+        padding: 0.75rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    td img {
+        width: 32px;
+        height: 32px;
+    }
 }
