@@ -52,23 +52,27 @@ function sortData(column) {
         let valueA, valueB;
 
         switch(column) {
-            case 'item-name':
-                valueA = a['item-name'];
-                valueB = b['item-name'];
+            case 'nom':
+                valueA = a.nom;
+                valueB = b.nom;
+                break;
+            case 'effet':
+                valueA = a.effet || '';
+                valueB = b.effet || '';
                 break;
             case 'densité':
-                valueA = parseFloat(a['densité']) || 0;
-                valueB = parseFloat(b['densité']) || 0;
+                valueA = parseFloat(a.densite) || 0;
+                valueB = parseFloat(b.densite) || 0;
                 break;
             case 'prix':
-                valueA = parseFloat(getSavedPrice(a['item-name'])) || 0;
-                valueB = parseFloat(getSavedPrice(b['item-name'])) || 0;
+                valueA = parseFloat(getSavedPrice(a.nom)) || 0;
+                valueB = parseFloat(getSavedPrice(b.nom)) || 0;
                 break;
             case 'ratio':
-                const priceA = parseFloat(getSavedPrice(a['item-name'])) || 0;
-                const priceB = parseFloat(getSavedPrice(b['item-name'])) || 0;
-                valueA = priceA && a['densité'] ? priceA / parseFloat(a['densité']) : 0;
-                valueB = priceB && b['densité'] ? priceB / parseFloat(b['densité']) : 0;
+                const priceA = parseFloat(getSavedPrice(a.nom)) || 0;
+                const priceB = parseFloat(getSavedPrice(b.nom)) || 0;
+                valueA = priceA && a.densite ? priceA / parseFloat(a.densite) : 0;
+                valueB = priceB && b.densite ? priceB / parseFloat(b.densite) : 0;
                 break;
             default:
                 return 0;
@@ -91,7 +95,7 @@ function setupSortingListeners() {
     const headers = document.querySelectorAll('#runesTable th');
     headers.forEach((header, index) => {
         header.addEventListener('click', () => {
-            const columns = ['item-name', 'item-name', 'densité', 'prix', 'ratio'];
+            const columns = ['nom', 'nom', 'effet', 'densité', 'prix', 'ratio'];
             sortData(columns[index]);
             
             // Mettre à jour les indicateurs de tri
@@ -104,23 +108,24 @@ function setupSortingListeners() {
 // Créer une ligne de tableau
 function createTableRow(rune) {
     const row = document.createElement('tr');
-    const savedPrice = getSavedPrice(rune['item-name']);
+    const savedPrice = getSavedPrice(rune.nom);
     
     // Ajuster le chemin de l'image pour pointer vers le dossier runes/assets
-    const imagePath = `runes/assets/${rune.image_url.split('/').pop()}`;
+    const imagePath = `runes/assets/${rune.imageUrl}`;
     
     row.innerHTML = `
-        <td><img src="${imagePath}" alt="${rune['item-name']}"></td>
-        <td>${rune['item-name']}</td>
-        <td data-density="${rune.densité}">${rune.densité}</td>
+        <td><img src="${imagePath}" alt="${rune.nom}"></td>
+        <td>${rune.nom}</td>
+        <td>${rune.effet || 'N/A'}</td>
+        <td data-density="${rune.densite}">${rune.densite || 'N/A'}</td>
         <td><input type="number" min="0" step="any" value="${savedPrice}"></td>
-        <td class="ratio">${calculateRatio(savedPrice, rune.densité)}</td>
+        <td class="ratio">${calculateRatio(savedPrice, rune.densite)}</td>
     `;
 
     const input = row.querySelector('input');
     input.addEventListener('input', (e) => {
         const price = e.target.value;
-        savePrice(rune['item-name'], price);
+        savePrice(rune.nom, price);
         updateRatio(row);
     });
 

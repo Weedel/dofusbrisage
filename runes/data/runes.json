@@ -1,262 +1,320 @@
 [
-  {
-    "item-name": "Rune Ré Per Di",
-    "densité": "10",
-    "image_url": "assets/78096.png"
-  },
-  {
-    "item-name": "Rune Ré Per Mé",
-    "densité": "10",
-    "image_url": "assets/78095.png"
-  },
-  {
-    "item-name": "Rune Do Per So",
-    "densité": "15",
-    "image_url": "assets/78094.png"
-  },
-  {
-    "item-name": "Rune Do Per Ar",
-    "densité": "15",
-    "image_url": "assets/78093.png"
-  },
-  {
-    "item-name": "Rune Do Per Di",
-    "densité": "15",
-    "image_url": "assets/78091.png"
-  },
-  {
-    "item-name": "Rune Do Per Mé",
-    "densité": "15",
-    "image_url": "assets/78092.png"
-  },
-  {
-    "item-name": "Rune Do Neutre",
-    "densité": "5",
-    "image_url": "assets/78069.png"
-  },
-  {
-    "item-name": "Rune Do Air",
-    "densité": "5",
-    "image_url": "assets/78067.png"
-  },
-  {
-    "item-name": "Rune Do Eau",
-    "densité": "5",
-    "image_url": "assets/78061.png"
-  },
-  {
-    "item-name": "Rune Do Feu",
-    "densité": "5",
-    "image_url": "assets/78063.png"
-  },
-  {
-    "item-name": "Rune Do Terre",
-    "densité": "5",
-    "image_url": "assets/78065.png"
-  },
-  {
-    "item-name": "Rune Ré Cri",
-    "densité": "2",
-    "image_url": "assets/78071.png"
-  },
-  {
-    "item-name": "Rune Do Cri",
-    "densité": "5",
-    "image_url": "assets/78073.png"
-  },
-  {
-    "item-name": "Rune Ré Pou",
-    "densité": "2",
-    "image_url": "assets/78079.png"
-  },
-  {
-    "item-name": "Rune Do Pou",
-    "densité": "5",
-    "image_url": "assets/78081.png"
-  },
-  {
-    "item-name": "Rune Ret Pme",
-    "densité": "7",
-    "image_url": "assets/78089.png"
-  },
-  {
-    "item-name": "Rune Ret Pa",
-    "densité": "7",
-    "image_url": "assets/78087.png"
-  },
-  {
-    "item-name": "Rune Ré Pme",
-    "densité": "7",
-    "image_url": "assets/78085.png"
-  },
-  {
-    "item-name": "Rune Ré Pa",
-    "densité": "7",
-    "image_url": "assets/78083.png"
-  },
-  {
-    "item-name": "Rune Tac",
-    "densité": "4",
-    "image_url": "assets/78077.png"
-  },
-  {
-    "item-name": "Rune Fui",
-    "densité": "4",
-    "image_url": "assets/78076.png"
-  },
-  {
-    "item-name": "Rune de chasse",
-    "densité": "5",
-    "image_url": "assets/78059.png"
-  },
-  {
-    "item-name": "Rune Ré Per Eau",
-    "densité": "6",
-    "image_url": "assets/78031.png"
-  },
-  {
-    "item-name": "Rune de Signature",
-    "densité": null,
-    "image_url": "assets/50037.png"
-  },
-  {
-    "item-name": "Rune Ré Per Neutre",
-    "densité": "6",
-    "image_url": "assets/78058.png"
-  },
-  {
-    "item-name": "Rune Ré Per Terre",
-    "densité": "6",
-    "image_url": "assets/78035.png"
-  },
-  {
-    "item-name": "Rune Ré Per Air",
-    "densité": "6",
-    "image_url": "assets/78033.png"
-  },
-  {
-    "item-name": "Rune Ré Per Feu",
-    "densité": "6",
-    "image_url": "assets/78029.png"
-  },
-  {
-    "item-name": "Rune Ré Neutre",
-    "densité": "2",
-    "image_url": "assets/78057.png"
-  },
-  {
-    "item-name": "Rune Ré Terre",
-    "densité": "2",
-    "image_url": "assets/78034.png"
-  },
-  {
-    "item-name": "Rune Ré Eau",
-    "densité": "2",
-    "image_url": "assets/78030.png"
-  },
-  {
-    "item-name": "Rune Ré Air",
-    "densité": "2",
-    "image_url": "assets/78032.png"
-  },
-  {
-    "item-name": "Rune Ré Feu",
-    "densité": "2",
-    "image_url": "assets/78028.png"
-  },
-  {
-    "item-name": "Rune Prospe",
-    "densité": "3",
-    "image_url": "assets/78036.png"
-  },
-  {
-    "item-name": "Rune Ini",
-    "densité": "1",
-    "image_url": "assets/78025.png"
-  },
-  {
-    "item-name": "Rune Per Pi",
-    "densité": "2",
-    "image_url": "assets/78024.png"
-  },
-  {
-    "item-name": "Rune Do Pi",
-    "densité": "5",
-    "image_url": "assets/78268.png"
-  },
-  {
-    "item-name": "Rune Pod",
-    "densité": "2.5",
-    "image_url": "assets/78020.png"
-  },
-  {
-    "item-name": "Rune Invo",
-    "densité": "30",
-    "image_url": "assets/78019.png"
-  },
-  {
-    "item-name": "Rune Po",
-    "densité": "51",
-    "image_url": "assets/78018.png"
-  },
-  {
-    "item-name": "Rune Do Ren",
-    "densité": "5",
-    "image_url": "assets/78017.png"
-  },
-  {
-    "item-name": "Rune Pui",
-    "densité": "2",
-    "image_url": "assets/78016.png"
-  },
-  {
-    "item-name": "Rune Do",
-    "densité": "20",
-    "image_url": "assets/78015.png"
-  },
-  {
-    "item-name": "Rune So",
-    "densité": "10",
-    "image_url": "assets/78013.png"
-  },
-  {
-    "item-name": "Rune Cri",
-    "densité": "10",
-    "image_url": "assets/78014.png"
-  },
-  {
-    "item-name": "Rune Ga Pme",
-    "densité": "90",
-    "image_url": "assets/78056.png"
-  },
-  {
-    "item-name": "Rune Cha",
-    "densité": "1",
-    "image_url": "assets/78040.png"
-  },
-  {
-    "item-name": "Rune Age",
-    "densité": "1",
-    "image_url": "assets/78046.png"
-  },
-  {
-    "item-name": "Rune Vi",
-    "densité": "1",
-    "image_url": "assets/78052.png"
-  },
-  {
-    "item-name": "Rune Ine",
-    "densité": "1",
-    "image_url": "assets/78037.png"
-  },
-  {
-    "item-name": "Rune Sa",
-    "densité": "3",
-    "image_url": "assets/78049.png"
-  },
-  {
-    "item-name": "Rune Fo",
-    "densité": "1",
-    "image_url": "assets/78043.png"
-  }
+    {
+        "nom": "Rune Ré Per Di",
+        "densite": 10,
+        "effet": "1% Résistance distance",
+        "imageUrl": "78096.png"
+    },
+    {
+        "nom": "Rune Ré Per Mé",
+        "densite": 10,
+        "effet": "1% Résistance mêlée",
+        "imageUrl": "78095.png"
+    },
+    {
+        "nom": "Rune Do Per So",
+        "densite": 15,
+        "effet": "1% Dommages aux sorts",
+        "imageUrl": "78094.png"
+    },
+    {
+        "nom": "Rune Do Per Ar",
+        "densite": 15,
+        "effet": "1% Dommages d'armes",
+        "imageUrl": "78093.png"
+    },
+    {
+        "nom": "Rune Do Per Di",
+        "densite": 15,
+        "effet": "1% Dommages distance",
+        "imageUrl": "78091.png"
+    },
+    {
+        "nom": "Rune Do Per Mé",
+        "densite": 15,
+        "effet": "1% Dommages mêlée",
+        "imageUrl": "78092.png"
+    },
+    {
+        "nom": "Rune Do Neutre",
+        "densite": 5,
+        "effet": "1 Dommages Neutre",
+        "imageUrl": "78069.png"
+    },
+    {
+        "nom": "Rune Do Air",
+        "densite": 5,
+        "effet": "1 Dommages Air",
+        "imageUrl": "78067.png"
+    },
+    {
+        "nom": "Rune Do Eau",
+        "densite": 5,
+        "effet": "1 Dommages Eau",
+        "imageUrl": "78061.png"
+    },
+    {
+        "nom": "Rune Do Feu",
+        "densite": 5,
+        "effet": "1 Dommages Feu",
+        "imageUrl": "78063.png"
+    },
+    {
+        "nom": "Rune Do Terre",
+        "densite": 5,
+        "effet": "1 Dommages Terre",
+        "imageUrl": "78065.png"
+    },
+    {
+        "nom": "Rune Ré Cri",
+        "densite": 2,
+        "effet": "1 Résistances Critiques",
+        "imageUrl": "78071.png"
+    },
+    {
+        "nom": "Rune Do Cri",
+        "densite": 5,
+        "effet": "1 Dommages Critiques",
+        "imageUrl": "78073.png"
+    },
+    {
+        "nom": "Rune Ré Pou",
+        "densite": 2,
+        "effet": "1 Résistances Poussée",
+        "imageUrl": "78079.png"
+    },
+    {
+        "nom": "Rune Do Pou",
+        "densite": 5,
+        "effet": "1 Dommages Poussée",
+        "imageUrl": "78081.png"
+    },
+    {
+        "nom": "Rune Ret Pme",
+        "densite": 7,
+        "effet": "1 Retrait PM",
+        "imageUrl": "78089.png"
+    },
+    {
+        "nom": "Rune Ret Pa",
+        "densite": 7,
+        "effet": "1 Retrait PA",
+        "imageUrl": "78087.png"
+    },
+    {
+        "nom": "Rune Ré Pme",
+        "densite": 7,
+        "effet": "1 Esquive PM",
+        "imageUrl": "78085.png"
+    },
+    {
+        "nom": "Rune Ré Pa",
+        "densite": 7,
+        "effet": "1 Esquive PA",
+        "imageUrl": "78083.png"
+    },
+    {
+        "nom": "Rune Tac",
+        "densite": 4,
+        "effet": "1 Tacle",
+        "imageUrl": "78077.png"
+    },
+    {
+        "nom": "Rune Fui",
+        "densite": 4,
+        "effet": "1 Fuite",
+        "imageUrl": "78076.png"
+    },
+    {
+        "nom": "Rune Per Pi",
+        "densite": 2,
+        "effet": "1 Puissance Pièges",
+        "imageUrl": "78024.png"
+    },
+    {
+        "nom": "Rune de chasse",
+        "densite": 5,
+        "effet": "Arme de chasse",
+        "imageUrl": "78059.png"
+    },
+    {
+        "nom": "Rune Ré Per Eau",
+        "densite": 6,
+        "effet": "1% Résistance Eau",
+        "imageUrl": "78031.png"
+    },
+    {
+        "nom": "Rune de Signature",
+        "densite": null,
+        "effet": null,
+        "imageUrl": "50037.png"
+    },
+    {
+        "nom": "Rune Ré Per Neutre",
+        "densite": 6,
+        "effet": "1% Résistance Neutre",
+        "imageUrl": "78058.png"
+    },
+    {
+        "nom": "Rune Ré Per Terre",
+        "densite": 6,
+        "effet": "1% Résistance Terre",
+        "imageUrl": "78035.png"
+    },
+    {
+        "nom": "Rune Ré Per Air",
+        "densite": 6,
+        "effet": "1% Résistance Air",
+        "imageUrl": "78033.png"
+    },
+    {
+        "nom": "Rune Ré Per Feu",
+        "densite": 6,
+        "effet": "1% Résistance Feu",
+        "imageUrl": "78029.png"
+    },
+    {
+        "nom": "Rune Ré Neutre",
+        "densite": 2,
+        "effet": "1 Résistances Neutre",
+        "imageUrl": "78057.png"
+    },
+    {
+        "nom": "Rune Ré Terre",
+        "densite": 2,
+        "effet": "1 Résistances Terre",
+        "imageUrl": "78034.png"
+    },
+    {
+        "nom": "Rune Ré Eau",
+        "densite": 2,
+        "effet": "1 Résistances Eau",
+        "imageUrl": "78030.png"
+    },
+    {
+        "nom": "Rune Ré Air",
+        "densite": 2,
+        "effet": "1 Résistances Air",
+        "imageUrl": "78032.png"
+    },
+    {
+        "nom": "Rune Ré Feu",
+        "densite": 2,
+        "effet": "1 Résistances Feu",
+        "imageUrl": "78028.png"
+    },
+    {
+        "nom": "Rune Prospe",
+        "densite": 3,
+        "effet": "1 Prospection",
+        "imageUrl": "78036.png"
+    },
+    {
+        "nom": "Rune Ini",
+        "densite": 1,
+        "effet": "10 Initiative",
+        "imageUrl": "78025.png"
+    },
+    {
+        "nom": "Rune Do Pi",
+        "densite": 5,
+        "effet": "1 Dommages Pièges",
+        "imageUrl": "78268.png"
+    },
+    {
+        "nom": "Rune Pod",
+        "densite": 2.5,
+        "effet": "10 Pods",
+        "imageUrl": "78020.png"
+    },
+    {
+        "nom": "Rune Invo",
+        "densite": 30,
+        "effet": "1 Invocations",
+        "imageUrl": "78019.png"
+    },
+    {
+        "nom": "Rune Po",
+        "densite": 51,
+        "effet": "1 Portée",
+        "imageUrl": "78018.png"
+    },
+    {
+        "nom": "Rune Do Ren",
+        "densite": 5,
+        "effet": "1 Dommages Renvoyés",
+        "imageUrl": "78017.png"
+    },
+    {
+        "nom": "Rune Pui",
+        "densite": 2,
+        "effet": "1 Puissance",
+        "imageUrl": "78016.png"
+    },
+    {
+        "nom": "Rune Do",
+        "densite": 20,
+        "effet": "1 Dommages",
+        "imageUrl": "78015.png"
+    },
+    {
+        "nom": "Rune So",
+        "densite": 10,
+        "effet": "1 Soins",
+        "imageUrl": "78013.png"
+    },
+    {
+        "nom": "Rune Cri",
+        "densite": 10,
+        "effet": "1% Critique",
+        "imageUrl": "78014.png"
+    },
+    {
+        "nom": "Rune Ga Pme",
+        "densite": 90,
+        "effet": "1 PM",
+        "imageUrl": "78056.png"
+    },
+    {
+        "nom": "Rune Ga Pa",
+        "densite": 100,
+        "effet": "1 PA",
+        "imageUrl": "78055.png"
+    },
+    {
+        "nom": "Rune Cha",
+        "densite": 1,
+        "effet": "1 Chance",
+        "imageUrl": "78040.png"
+    },
+    {
+        "nom": "Rune Age",
+        "densite": 1,
+        "effet": "1 Agilité",
+        "imageUrl": "78046.png"
+    },
+    {
+        "nom": "Rune Vi",
+        "densite": 1,
+        "effet": "5 Vitalité",
+        "imageUrl": "78052.png"
+    },
+    {
+        "nom": "Rune Ine",
+        "densite": 1,
+        "effet": "1 Intelligence",
+        "imageUrl": "78037.png"
+    },
+    {
+        "nom": "Rune Sa",
+        "densite": 3,
+        "effet": "1 Sagesse",
+        "imageUrl": "78049.png"
+    },
+    {
+        "nom": "Rune Fo",
+        "densite": 1,
+        "effet": "1 Force",
+        "imageUrl": "78043.png"
+    }
 ]
