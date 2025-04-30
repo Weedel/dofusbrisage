@@ -141,30 +141,62 @@ function renderTable() {
     });
 }
 
-// Supprimer tous les prix enregistrés
+// Gestion de la modale de confirmation
+const modal = document.getElementById('confirmModal');
+const confirmBtn = document.getElementById('confirmDelete');
+const cancelBtn = document.getElementById('cancelDelete');
+
+// Fonction pour ouvrir la modale
+function openModal() {
+    modal.classList.add('show');
+}
+
+// Fonction pour fermer la modale
+function closeModal() {
+    modal.classList.remove('show');
+}
+
+// Fonction pour supprimer tous les prix
 function clearAllPrices() {
-    if (confirm('Êtes-vous sûr de vouloir supprimer tous les prix enregistrés ?')) {
-        // Récupérer toutes les clés du localStorage qui commencent par "rune_price_"
-        Object.keys(localStorage)
-            .filter(key => key.startsWith('rune_price_'))
-            .forEach(key => localStorage.removeItem(key));
-        
-        // Réinitialiser tous les champs de prix à vide
-        document.querySelectorAll('#runesTable input[type="number"]').forEach(input => {
-            input.value = '';
-        });
-        
-        // Réinitialiser tous les ratios
-        document.querySelectorAll('.ratio').forEach(ratio => {
-            ratio.textContent = 'N/A';
-        });
-    }
+    // Récupérer toutes les clés du localStorage qui commencent par "rune_price_"
+    Object.keys(localStorage)
+        .filter(key => key.startsWith('rune_price_'))
+        .forEach(key => localStorage.removeItem(key));
+    
+    // Réinitialiser tous les champs de prix à vide
+    document.querySelectorAll('#runesTable input[type="number"]').forEach(input => {
+        input.value = '';
+    });
+    
+    // Réinitialiser tous les ratios
+    document.querySelectorAll('.ratio').forEach(ratio => {
+        ratio.textContent = 'N/A';
+    });
+    
+    // Fermer la modale
+    closeModal();
 }
 
 // Initialiser l'application
 document.addEventListener('DOMContentLoaded', () => {
     loadRunesData();
     
-    // Ajouter l'écouteur d'événement pour le bouton de suppression
-    document.getElementById('clearPrices').addEventListener('click', clearAllPrices);
+    // Gestionnaires d'événements pour la modale
+    document.getElementById('clearPrices').addEventListener('click', openModal);
+    confirmBtn.addEventListener('click', clearAllPrices);
+    cancelBtn.addEventListener('click', closeModal);
+    
+    // Fermer la modale en cliquant en dehors
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+    
+    // Fermer la modale avec la touche Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.classList.contains('show')) {
+            closeModal();
+        }
+    });
 });
