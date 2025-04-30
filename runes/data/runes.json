@@ -1,41 +1,5 @@
 [
     {
-        "nom": "Rune Ré Per Di",
-        "densite": 10,
-        "effet": "1% Résistance distance",
-        "imageUrl": "78096.png"
-    },
-    {
-        "nom": "Rune Ré Per Mé",
-        "densite": 10,
-        "effet": "1% Résistance mêlée",
-        "imageUrl": "78095.png"
-    },
-    {
-        "nom": "Rune Do Per So",
-        "densite": 15,
-        "effet": "1% Dommages aux sorts",
-        "imageUrl": "78094.png"
-    },
-    {
-        "nom": "Rune Do Per Ar",
-        "densite": 15,
-        "effet": "1% Dommages d'armes",
-        "imageUrl": "78093.png"
-    },
-    {
-        "nom": "Rune Do Per Di",
-        "densite": 15,
-        "effet": "1% Dommages distance",
-        "imageUrl": "78091.png"
-    },
-    {
-        "nom": "Rune Do Per Mé",
-        "densite": 15,
-        "effet": "1% Dommages mêlée",
-        "imageUrl": "78092.png"
-    },
-    {
         "nom": "Rune Do Neutre",
         "densite": 5,
         "effet": "1 Dommages Neutre",
