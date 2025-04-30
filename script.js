@@ -141,5 +141,30 @@ function renderTable() {
     });
 }
 
+// Supprimer tous les prix enregistrés
+function clearAllPrices() {
+    if (confirm('Êtes-vous sûr de vouloir supprimer tous les prix enregistrés ?')) {
+        // Récupérer toutes les clés du localStorage qui commencent par "rune_price_"
+        Object.keys(localStorage)
+            .filter(key => key.startsWith('rune_price_'))
+            .forEach(key => localStorage.removeItem(key));
+        
+        // Réinitialiser tous les champs de prix à vide
+        document.querySelectorAll('#runesTable input[type="number"]').forEach(input => {
+            input.value = '';
+        });
+        
+        // Réinitialiser tous les ratios
+        document.querySelectorAll('.ratio').forEach(ratio => {
+            ratio.textContent = 'N/A';
+        });
+    }
+}
+
 // Initialiser l'application
-document.addEventListener('DOMContentLoaded', loadRunesData);
+document.addEventListener('DOMContentLoaded', () => {
+    loadRunesData();
+    
+    // Ajouter l'écouteur d'événement pour le bouton de suppression
+    document.getElementById('clearPrices').addEventListener('click', clearAllPrices);
+});

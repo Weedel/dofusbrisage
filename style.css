@@ -99,6 +99,27 @@ tr:hover {
     font-size: 0.8em;
 }
 
+.actions {
+    text-align: center;
+    margin: 1rem 0 2rem;
+}
+
+.clear-button {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.clear-button:hover {
+    background-color: #dc2626;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 10px;
