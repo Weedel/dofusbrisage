@@ -144,12 +144,6 @@
         "imageUrl": "78031.png"
     },
     {
-        "nom": "Rune de Signature",
-        "densite": null,
-        "effet": null,
-        "imageUrl": "50037.png"
-    },
-    {
         "nom": "Rune Ré Per Neutre",
         "densite": 6,
         "effet": "1% Résistance Neutre",
